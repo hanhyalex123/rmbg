@@ -1,0 +1,116 @@
+nohup: 忽略输入
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started parent process [2167798]
+INFO:     Started server process [2167801]
+INFO:     Waiting for application startup.
+INFO:     Started server process [2167802]
+INFO:     Waiting for application startup.
+INFO:     Started server process [2167800]
+INFO:     Waiting for application startup.
+INFO:     Started server process [2167803]
+INFO:     Waiting for application startup.
+/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+服务器启动... 正在预加载AI模型...
+首次加载 RMBG 2.0 背景移除模型...
+背景移除模型加载完成。
+首次加载 Stable Diffusion Inpainting 模型...
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]服务器启动... 正在预加载AI模型...
+首次加载 RMBG 2.0 背景移除模型...
+背景移除模型加载完成。
+首次加载 Stable Diffusion Inpainting 模型...
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]服务器启动... 正在预加载AI模型...
+首次加载 RMBG 2.0 背景移除模型...
+背景移除模型加载完成。
+首次加载 Stable Diffusion Inpainting 模型...
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00, 14.51it/s]Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00, 10.41it/s]Loading pipeline components...:  17%|█▋        | 1/6 [00:00<00:00,  5.11it/s]Loading pipeline components...:  67%|██████▋   | 4/6 [00:00<00:00,  7.88it/s]Loading pipeline components...:  67%|██████▋   | 4/6 [00:00<00:00,  6.93it/s]Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  4.01it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00, 10.55it/s]
+服务器启动... 正在预加载AI模型...
+首次加载 RMBG 2.0 背景移除模型...
+背景移除模型加载完成。
+首次加载 Stable Diffusion Inpainting 模型...
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00, 10.73it/s]
+Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00, 12.89it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00, 10.19it/s]
+Loading pipeline components...:  17%|█▋        | 1/6 [00:00<00:00,  9.74it/s]Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  7.03it/s]INFO:     Application startup complete.
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.19it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.27it/s]
+INFO:     Application startup complete.
+Inpainting 模型加载完成。
+所有模型已成功加载。服务准备就绪。
+INFO:     192.168.51.217:56205 - "GET /outputs/test123_foreground.png HTTP/1.1" 304 Not Modified
+Inpainting 模型加载完成。
+所有模型已成功加载。服务准备就绪。
+INFO:     192.168.254.8:15303 - "GET /v1/images/results/test123 HTTP/1.1" 404 Not Found
+INFO:     192.168.254.8:15304 - "GET /v1/docs HTTP/1.1" 404 Not Found
+INFO:     192.168.254.8:15305 - "GET /docs HTTP/1.1" 200 OK
+INFO:     Received SIGHUP, restarting processes.
+INFO:     Terminated child process [2167800]
+INFO:     Waiting for child process [2167800]
+/usr/lib/python3.10/multiprocessing/resource_tracker.py:104: UserWarning: resource_tracker: process died unexpectedly, relaunching.  Some resources might leak.
+  warnings.warn('resource_tracker: process died unexpectedly, '
+INFO:     Terminated child process [2167801]
+INFO:     Waiting for child process [2167801]
+INFO:     Waiting for child process [2167802]
+INFO:     Waiting for child process [2167803]
+INFO:     Started server process [2255499]
+INFO:     Waiting for application startup.
+INFO:     Started server process [2255498]
+INFO:     Waiting for application startup.
+INFO:     Started server process [2255500]
+INFO:     Waiting for application startup.
+INFO:     Started server process [2255497]
+INFO:     Waiting for application startup.
+/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.10/dist-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+服务器启动... 正在预加载AI模型...
+首次加载 RMBG 2.0 背景移除模型...
+背景移除模型加载完成。
+首次加载 Stable Diffusion Inpainting 模型...
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]服务器启动... 正在预加载AI模型...
+首次加载 RMBG 2.0 背景移除模型...
+背景移除模型加载完成。
+首次加载 Stable Diffusion Inpainting 模型...
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00, 14.26it/s]Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00, 14.29it/s]服务器启动... 正在预加载AI模型...
+首次加载 RMBG 2.0 背景移除模型...
+背景移除模型加载完成。
+首次加载 Stable Diffusion Inpainting 模型...
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00, 19.88it/s]服务器启动... 正在预加载AI模型...
+首次加载 RMBG 2.0 背景移除模型...
+背景移除模型加载完成。
+首次加载 Stable Diffusion Inpainting 模型...
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...:  67%|██████▋   | 4/6 [00:00<00:00, 14.42it/s]Loading pipeline components...:  67%|██████▋   | 4/6 [00:00<00:00,  8.31it/s]Loading pipeline components...:  67%|██████▋   | 4/6 [00:00<00:00,  6.53it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  9.99it/s]
+Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  9.58it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  9.64it/s]
+Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  5.23it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  8.64it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  9.87it/s]
+Loading pipeline components...:  67%|██████▋   | 4/6 [00:00<00:00,  6.83it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  9.70it/s]
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+INFO:     Application startup complete.
+INFO:     Application startup complete.

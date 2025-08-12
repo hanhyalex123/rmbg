@@ -1,0 +1,30 @@
+torch
+torchvision
+transformers
+Pillow
+numpy
+opencv-python-headless
+fastguidedfilter
+pymatting
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+pydantic==2.7.4
+
+# Core ML stack (CUDA 12.1 runtime推荐镜像)
+torch==2.3.1
+torchvision==0.18.1
+transformers==4.42.3
+diffusers==0.29.2
+accelerate==0.33.0
+timm==0.9.16
+
+# Image & numeric
+Pillow==10.3.0
+numpy==1.26.4
+scipy==1.13.1
+opencv-python-headless==4.10.0.84
+
+# Optional (保持可卸)
+# onnx==1.16.1
+# onnxruntime-gpu==1.18.0

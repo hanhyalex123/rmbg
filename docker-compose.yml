@@ -1,0 +1,32 @@
+version: '3.9'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
+      - HF_HOME=/cache/huggingface
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    command: bash -lc "uvicorn api:app --host 0.0.0.0 --port 8000"
+    shm_size: '2gb'
+    restart: unless-stopped
+    runtime: nvidia
+    working_dir: /app
+    user: "0:0"
+    tmpfs:
+      - /tmp:size=2g,mode=1777
+    volumes:
+      - .:/app
+      - ./outputs:/app/outputs
+      - ./inputs:/app/inputs
+      - ./cache/huggingface:/cache/huggingface
