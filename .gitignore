@@ -10,6 +10,8 @@ venv_rmbg/
 # Outputs & temps
 outputs/
 .tmp/
+outputspython3/
+.tmp/
 
 # Model weights / checkpoints
 *.pth
